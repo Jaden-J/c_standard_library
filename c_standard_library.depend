@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1418494367 source:d:\githubrep\c_standard_library\main.c
+	<assert.h>
+	<signal.h>
+	<stdio.h>
+	<stdlib.h>
+	"tassert.h"
+	<assert.h>
+
+1418492626 d:\githubrep\c_standard_library\header\assert.h
+
+1418493287 source:d:\githubrep\c_standard_library\xassert.c
+	<stdio.h>
+	<stdlib.h>
+	"assert.h"
+
+1418493181 d:\githubrep\c_standard_library\assert.h
+
+1418494104 d:\githubrep\c_standard_library\tassert.h
+	<assert.h>
+	<signal.h>
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+
+1418494104 source:d:\githubrep\c_standard_library\tassert.h
+	<assert.h>
+	<signal.h>
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+
