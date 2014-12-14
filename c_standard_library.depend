@@ -1,11 +1,9 @@
 # depslib dependency file v1.0
-1418494367 source:d:\githubrep\c_standard_library\main.c
-	<assert.h>
-	<signal.h>
+1418576811 source:d:\githubrep\c_standard_library\main.c
 	<stdio.h>
 	<stdlib.h>
 	"tassert.h"
-	<assert.h>
+	"tctype.h"
 
 1418492626 d:\githubrep\c_standard_library\header\assert.h
 
@@ -29,4 +27,66 @@
 	<stdio.h>
 	<stdlib.h>
 	<assert.h>
+
+1418576269 source:d:\githubrep\c_standard_library\isalnum.c
+	"ctype.h"
+
+1418574875 d:\githubrep\c_standard_library\xctype.h
+	"ctype.h"
+	<limits.h>
+	<stdio.h>
+
+1418575640 d:\githubrep\c_standard_library\ctype.h
+
+1418573590 source:d:\githubrep\c_standard_library\isalpha.c
+	"ctype.h"
+
+1418576228 source:d:\githubrep\c_standard_library\iscntrl.c
+	"ctype.h"
+	"xctype.h"
+
+1418576295 source:d:\githubrep\c_standard_library\isdigit.c
+	"ctype.h"
+
+1418573612 source:d:\githubrep\c_standard_library\isgraph.c
+	"ctype.h"
+
+1418573620 source:d:\githubrep\c_standard_library\isprint.c
+	"ctype.h"
+
+1418573627 source:d:\githubrep\c_standard_library\ispunct.c
+	"ctype.h"
+
+1418573636 source:d:\githubrep\c_standard_library\isspace.c
+	"ctype.h"
+
+1418573641 source:d:\githubrep\c_standard_library\isupper.c
+	"ctype.h"
+
+1418573647 source:d:\githubrep\c_standard_library\isxdigit.c
+	"ctype.h"
+
+1418573652 source:d:\githubrep\c_standard_library\tolower.c
+	"ctype.h"
+
+1418573658 source:d:\githubrep\c_standard_library\toupper.c
+	"ctype.h"
+
+1418573714 source:d:\githubrep\c_standard_library\xtolower.c
+	"ctype.h"
+	<limits.h>
+	<stdio.h>
+
+1418573704 source:d:\githubrep\c_standard_library\xtoupper.c
+	"ctype.h"
+	<limits.h>
+	<stdio.h>
+
+1418576486 source:d:\githubrep\c_standard_library\ctype.c
+	"ctype.h"
+	"xctype.h"
+
+1418576826 d:\githubrep\c_standard_library\tctype.h
+	"ctype.h"
+	<limits.h>
 

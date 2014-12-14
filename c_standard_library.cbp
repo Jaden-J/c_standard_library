@@ -32,48 +32,23 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Unit filename="assert.h" />
+		<Unit filename="ctype.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="ctype.h" />
-		<Unit filename="isalnum.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="isalpha.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="iscntrl.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="isdigit.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="isgraph.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="isprint.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="ispunct.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="isspace.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="isupper.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="isxdigit.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="tassert.h" />
-		<Unit filename="tolower.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="toupper.c">
-			<Option compilerVar="CC" />
-		</Unit>
+		<Unit filename="tctype.h" />
 		<Unit filename="xassert.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xctype.h" />
+		<Unit filename="xtolower.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xtoupper.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>
