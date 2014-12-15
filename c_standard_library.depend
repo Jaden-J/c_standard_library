@@ -1,9 +1,12 @@
 # depslib dependency file v1.0
-1418576811 source:d:\githubrep\c_standard_library\main.c
+1418670135 source:d:\githubrep\c_standard_library\main.c
 	<stdio.h>
+	<stdlib.h>
+	<string.h>
 	<stdlib.h>
 	"tassert.h"
 	"tctype.h"
+	"errno.h"
 
 1418492626 d:\githubrep\c_standard_library\header\assert.h
 
@@ -89,4 +92,12 @@
 1418576826 d:\githubrep\c_standard_library\tctype.h
 	"ctype.h"
 	<limits.h>
+
+1418669222 source:d:\githubrep\c_standard_library\errno.c
+	"errno.h"
+
+1418669742 d:\githubrep\c_standard_library\errno.h
+	"yvals.h"
+
+1418670049 d:\githubrep\c_standard_library\yvals.h
 
