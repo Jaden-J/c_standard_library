@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1418670135 source:d:\githubrep\c_standard_library\main.c
+1418674260 source:d:\githubrep\c_standard_library\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<stdlib.h>
 	"tassert.h"
 	"tctype.h"
-	"errno.h"
+	"terrno.h"
 
 1418492626 d:\githubrep\c_standard_library\header\assert.h
 
@@ -100,4 +100,7 @@
 	"yvals.h"
 
 1418670049 d:\githubrep\c_standard_library\yvals.h
+
+1418670241 d:\githubrep\c_standard_library\terrno.h
+	"errno.h"
 

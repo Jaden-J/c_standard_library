@@ -51,6 +51,7 @@ void strdup_ex()
     }
     printf("The destination = %s\n",dest);
 }
+
 void strcmp_ex()
 {
     char str1[80],str2[80];
@@ -100,6 +101,128 @@ void strcat_ex()
         puts(str1);
     }
 }
+void strchr_ex()
+{
+    char *loc,buf[80];
+    int ch;
+    /* input the string and the character */
+    printf("enter the string to be searched: ");
+    gets(buf);
+    printf("Enter the character to search for: ");
+    ch = getchar();
+
+    /* perform search */
+    loc = strchr(buf,ch);
+
+    if(loc == NULL)
+        printf("The characters %c was not found.",ch);
+    else
+        printf("Te characters %c was found at position %d.\n",ch,loc-buf);
+}
+void strcspn_ex()
+{
+    //the function strcspn start searching at the first character of str1, looking for
+    // any of the individual characters contained in str2.
+    char buf1[80],buf2[80];
+    size_t loc;
+
+    /* input the strings */
+    printf("Enter  the string to be searched");
+    gets(buf1);
+    printf("Enter the string containing the target chracacters:");
+    gets(buf2);
+
+    /* perform search */
+    loc = strcspn(buf1,buf2);
+    if(loc == strlen(buf1))
+        printf("No match was found");
+    else
+        printf("The first match was found at  position %d.\n",loc);
+}
+void strpbrk_ex()
+{
+    //is similar to strcspn(), searching one string for the first occurrence
+    // of any character in another string.It differs in that it doesn't include
+    // the terminating null characters in the search.the function prototype
+    // char *strpbrk(char *str1,char *str2);
+
+}
+void strstr_ex()
+{
+    // searches for the first occurrence of one string within another, & it searches
+    // for the entire string
+    // char *strstr(char *str1,char *str2);
+    char *loc, buf1[80], buf2[80];
+    // input the strings
+    printf("Enter the string to be searched:");
+    gets(buf1);
+    printf("Enter the target string");
+    gets(buf2);
+
+    //perform the search
+    loc = strstr(buf1,buf2);
+    if(loc == NULL)
+        printf("No match was found.\n");
+    else
+        printf("%s was found at position %d.\n",buf2,loc-buf1);
+}
+void strrev_ex()
+{
+    char s[] = "the quick brown fox jumps over the lazy dog";
+     char *t=strrev(s);
+    printf("%s",t);
+
+}
+void atoi_ex()
+{
+    //converts  a string to an integer
+    char* a="157";
+    char* b = "-1.6";
+
+    printf("%d",atoi(a));
+    printf("\n%d",atoi(b));
+    printf("\n%d",atoi("+50x"));
+    printf("\n%d",atoi("twelve"));
+}
+void atl_ex()
+{
+    //works exactly like atoi ,except that it returns a long
+}
+void atof_ex()
+{
+    //double atof(char *str);
+    //converts a string to double
+}
+int isxxx_ex()
+{
+    int ch,i,sign=1;
+    int res;
+    while(isspace(ch=getchar()));
+    if(ch!='-' && ch!='+' && !isdigit(ch) && ch!=EOF)
+    {
+        ungetc(ch,stdin);
+        res=0;
+    }
+    // if the first character is a minus sign, set sign accordingly
+    if(ch=='-')
+        sign = -1;
+    // if the first character was  a plus or minus sign, get the next character
+    if(ch=='+' || ch=='-')
+        ch = getchar();
+    //Read the characters until a nondigit is input.assign
+    // values,multiplied by proper power of 10, to i.
+    for(i=0;isdigit(ch);ch=getchar())
+        i = 10 * i + (ch - '0');
+    //make result negative if sign is negative
+    i *=sign;
+    //if EOF encountered ,  a nondigit character must have been read in, so unget it
+    if(ch!=EOF)
+        ungetc(ch,stdin);
+    res=i;
+    printf("You entered %d.\n",res);
+
+}
+
 int main()
 {
    // test_assert();
@@ -116,6 +239,12 @@ int main()
     //strcat_ex();
     //strcmp_ex();
     //strncmp_ex();
+    //strchr_ex();
+    //strcspn_ex();
+    //strstr_ex();
+    //strrev_ex();
+    //atoi_ex();
+    //isxxx_ex();
 
     return 0;
 }
