@@ -1,0 +1,74 @@
+ Volume in drive C has no label.
+ Volume Serial Number is DECD-17D0
+
+ Directory of C:\Users\admin
+
+12/14/2014  06:56 PM    <DIR>          .
+12/14/2014  06:56 PM    <DIR>          ..
+09/05/2014  09:04 AM    <DIR>          .android
+08/30/2014  11:09 AM    <DIR>          .AndroidStudioBeta
+10/29/2014  12:13 AM             2,198 .bash_history
+05/14/2014  03:27 PM    <DIR>          .config
+06/05/2014  04:10 PM    <DIR>          .designer
+10/29/2014  12:00 AM               143 .gitconfig
+08/30/2014  02:29 PM    <DIR>          .gradle
+08/10/2014  03:02 PM    <DIR>          .idlerc
+08/17/2014  10:25 PM    <DIR>          .IntelliJIdea12
+06/08/2014  03:05 PM    <DIR>          .ipython
+05/27/2014  06:47 PM             2,182 .kdiff3rc
+08/22/2014  12:13 PM    <DIR>          .m2
+08/14/2014  10:33 AM    <DIR>          .matplotlib
+10/05/2014  08:13 AM    <DIR>          .nbi
+08/30/2014  02:34 PM    <DIR>          .nbprofiler
+08/14/2014  09:17 AM    <DIR>          .PyCharm30
+06/06/2014  05:17 PM    <DIR>          .ssh
+11/13/2014  09:08 PM    <DIR>          .VirtualBox
+08/11/2014  07:37 PM    <DIR>          .WebIde70
+07/05/2014  05:02 PM    <DIR>          .WebStorm8
+08/11/2014  07:01 PM    <DIR>          .zend
+08/11/2014  07:01 PM    <DIR>          .ZendStudio
+10/17/2014  01:12 PM    <DIR>          AndroidStudioProjects
+08/31/2014  01:03 PM         3,211,264 aspnet-AspnetIdentitySample-10_8_3.mdf
+08/31/2014  01:03 PM           802,816 aspnet-AspnetIdentitySample-10_8_3_log.ldf
+09/27/2014  09:05 AM    <DIR>          Camera Mouse
+02/03/2014  06:38 PM    <DIR>          Contacts
+04/29/2014  11:01 AM               689 contestapplet.conf
+04/29/2014  09:27 AM               688 contestapplet.conf.bak
+12/17/2014  06:27 PM    <DIR>          Desktop
+12/18/2014  05:54 PM    <DIR>          Documents
+12/20/2014  05:00 AM    <DIR>          Downloads
+08/31/2014  01:03 PM         3,211,264 EF6Recipes.mdf
+08/31/2014  01:03 PM           851,968 EF6Recipes_log.ldf
+09/02/2014  09:52 AM    <DIR>          Favorites
+09/10/2014  11:39 PM               122 find
+10/17/2014  01:30 AM    <DIR>          glGo
+08/19/2014  09:02 PM    <DIR>          IdeaProjects
+07/07/2014  02:32 PM    <DIR>          Internet Explorer Troubleshooting_files
+02/03/2014  06:38 PM    <DIR>          Links
+12/06/2014  09:17 AM                38 log_123.log
+05/26/2014  08:53 PM                74 mercurial.ini
+10/06/2014  09:41 PM    <DIR>          Music
+03/02/2014  09:04 AM    <DIR>          New folder
+07/18/2014  11:27 AM    <DIR>          node_modules
+10/04/2014  12:35 PM         3,211,264 orcharddb.mdf
+10/04/2014  12:35 PM           851,968 orcharddb_log.ldf
+11/14/2014  10:19 PM    <DIR>          Pictures
+08/14/2014  10:14 AM    <DIR>          pip
+06/23/2014  05:43 PM               600 PUTTY.RND
+08/16/2014  09:35 AM    <DIR>          PycharmProjects
+08/03/2014  02:29 PM    <DIR>          Saved Games
+02/16/2014  11:18 AM    <DIR>          Searches
+11/11/2014  03:39 PM                 0 send
+08/31/2014  01:03 PM         3,211,264 SportsStore.mdf
+08/31/2014  01:03 PM           851,968 SportsStore_log.ldf
+12/08/2014  10:58 PM                34 Untitled.m
+08/14/2014  10:32 AM    <DIR>          ve
+08/31/2014  10:17 PM         3,211,264 VetOffice.SharedDatabase.DataModel.VetOfficeContext.mdf
+08/31/2014  10:17 PM           802,816 VetOffice.SharedDatabase.DataModel.VetOfficeContext_log.ldf
+12/02/2014  11:32 AM    <DIR>          Videos
+10/30/2014  03:45 PM    <DIR>          VSWebCache
+05/16/2014  06:59 AM    <DIR>          Web Essentials
+07/24/2014  10:30 PM    <DIR>          WebstormProjects
+08/11/2014  07:01 PM    <DIR>          Zend
+              21 File(s)     20,224,624 bytes
+              46 Dir(s)  16,575,918,080 bytes free

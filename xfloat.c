@@ -18,11 +18,12 @@
 #define FINIT(w0, wx)   w0, wx
 #define LINIT(w0, w1, wx)   w0, w1, wx, wx, wx
 #endif // _D0
+
         /* static data */
 
 _Dvals _Dbl = {
     (int)((DFRAC-1)*LOG2),                  /*DBL_DIG */
-    (int)DFRAC,                             /*DBL_MANT_DIG
+    (int)DFRAC,                             /*DBL_MANT_DIG */
     (int)((DMAXE-_DBIAS-1)*LOG2),           /* DBL_MAX_10_EXP */
     (int) (DMAXE-_DBIAS-1),                 /* DBL_MAX_EXP */
     (int) (-_DBIAS*LOG2),                   /* DBL_MIN_10_EXP */
@@ -30,5 +31,17 @@ _Dvals _Dbl = {
     {DINIT(_DBIAS-DFRAC+2<<_DOFF, 0)},      /* DBL_EPSILLON */
     {DINIT((DMAXE<<_DOFF)-1,~0)},           /* DBL_MAX */
     {DINIT(1<<_DOFF, 0)},                   /* DBL_MIN */
-};
+    };
+_Dvals _Flt = {
+    (int)((FFRAC-1)*LOG2),                  /* FLT_DIG */
+    (int)FFRAC,                             /* FLT_MANT_DIG */
+    (int)((FMAXE-_FBIAS-1)*LOG2),           /* FLT_MAX_10_EXP */
+    (int)(FMAXE-_FBIAS-1),                  /* FLT_MAX_EXP */
+    (int)(-_FBIAS*LOG2),                    /* FLT_MIN_10_EXP */
+    (int)(1-_FBIAS),                        /* FLT_MIN_EXP */
+    {FINIT(_FBIAS-FFRAC+2<<_FOFF, 0)},      /* FLT_EPSILLON */
+    {FINIT((FMAXE<<_FOFF)-1,~0)},            /* FLT_MAX */
+    {FINIT(1<<_FOFF, 0)},                   /* FLT_MIN */
+    };
+
 

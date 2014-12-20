@@ -13,8 +13,8 @@ typedef struct {
         float _F;
         double _D;
         long double _Ld;
-        }_Deps, _Dmax, _Dmin;
-    }_Dvals;
+        } _Deps, _Dmax, _Dmin;
+    } _Dvals;
     /*declarations */
 extern _Dvals _Dbl, _Flt, _Ldbl;
     /* double properties */
@@ -41,7 +41,7 @@ extern _Dvals _Dbl, _Flt, _Ldbl;
 #define FLT_RADIX       2
 #define FLT_ROUNDS      _FRND
     /*  long double properties */
-#define LDBL_DIG         _Lbl._Ddig
+#define LDBL_DIG        _Ldbl._Ddig
 #define LDBL_EPSILON    _Ldbl._Deps._Ld
 #define LDBL_MANT_DIG   _Ldbl._Dmdig
 #define LDBL_MAX        _Ldbl._Dmax._Ld
