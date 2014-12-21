@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1419062734 source:d:\githubrep\c_standard_library\main.c
+1419185980 source:d:\githubrep\c_standard_library\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -7,9 +7,8 @@
 	"tassert.h"
 	"tctype.h"
 	"terrno.h"
-	"float.h"
-	"pointer.examples.h"
-	"io_ex.h"
+	<float.h>
+	"structure_ex.h"
 
 1418492626 d:\githubrep\c_standard_library\header\assert.h
 
@@ -107,7 +106,7 @@
 1418670241 d:\githubrep\c_standard_library\terrno.h
 	"errno.h"
 
-1419053621 source:d:\githubrep\c_standard_library\xfloat.c
+1419180967 source:d:\githubrep\c_standard_library\xfloat.c
 	"float.h"
 
 1418798169 source:d:\githubrep\c_standard_library\stringexamples.c
@@ -120,13 +119,18 @@
 	<stdlib.h>
 	<time.h>
 
-1419062825 d:\githubrep\c_standard_library\pointer.examples.h
+1419151343 d:\githubrep\c_standard_library\pointer.examples.h
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
+	<math.h>
 
-1419052195 d:\githubrep\c_standard_library\float.h
+1419181334 d:\githubrep\c_standard_library\float.h
 	"yvals.h"
 
 1419054860 d:\githubrep\c_standard_library\io_ex.h
+	<stdio.h>
+
+1419186219 d:\githubrep\c_standard_library\structure_ex.h
 	<stdio.h>
 

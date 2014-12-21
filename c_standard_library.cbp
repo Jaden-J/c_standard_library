@@ -42,14 +42,17 @@
 		<Unit filename="errno.h" />
 		<Unit filename="float.h" />
 		<Unit filename="io_ex.h" />
+		<Unit filename="limits.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="pointer.examples.h" />
 		<Unit filename="string_ex.h" />
+		<Unit filename="structure_ex.h" />
 		<Unit filename="tassert.h" />
 		<Unit filename="tctype.h" />
 		<Unit filename="terrno.h" />
+		<Unit filename="tfloat.h" />
 		<Unit filename="xassert.c">
 			<Option compilerVar="CC" />
 		</Unit>

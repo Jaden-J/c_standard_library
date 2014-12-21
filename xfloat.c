@@ -43,5 +43,28 @@ _Dvals _Flt = {
     {FINIT((FMAXE<<_FOFF)-1,~0)},            /* FLT_MAX */
     {FINIT(1<<_FOFF, 0)},                   /* FLT_MIN */
     };
-
+#if _DLONG
+_Dvals_Ldb1 = {
+    (int)((LFRAC-1)*LOG2),                  /* LDBL_DIG */
+    (int)LFRAC,                             /* LDBL_MANT_DIG */
+    (int)((LMAXE-_LBIAS-1)*LOG2),           /* LDBL_MAX_10_EXP */
+    (int)(LMAXE-_LBIAS-1),                  /* LDBL_MAX_EXP */
+    (int)(-_LBIAS*LOG2),                    /* LDBL_MIN_10_EXP */
+    (int)(1-_LBIAS),                        /* LDBL_EPSILLON */
+    {LINIT(LMAXE-1, ~0, ~0)},               /* LDBL_MAX */
+    {LINIT(1, 0x8000, 0)},                  /* LDBL_MIN */
+};
+#else
+_Dvals _Ldbl = {
+    (int)(DFRAC*LOG2),                      /* LDBL_DIG */
+    (int)DFRAC,                             /* LDBL_MANT_DIG */
+    (int)((DMAXE-_DBIAS-1)*LOG2),           /* LDBL_MAX_10_EXP */
+    (int)(DMAXE-_DBIAS-1),                  /* LDBL_MAX_EXP */
+    (int)(-_DBIAS*LOG2),                    /* LDBL_MIN_10_EXP */
+    (int)(1-_DBIAS),                        /* LDBL_MIN_EXP */
+    {DINIT(_DBIAS-DFRAC+2<<_DOFF, 0)},      /* LDBL_EPSILLON */
+    {DINIT((DMAXE<<_DOFF)-1, ~0)},          /* LDBL_MAX */
+    {DINIT(1<<_DOFF,0)},                    /* LDBL_MIN */
+};
+#endif // _DLONG
 

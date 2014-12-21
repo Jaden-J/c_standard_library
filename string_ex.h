@@ -390,6 +390,7 @@ void printf_formats()
     printf ("%c\n", c);
     printf ("%3c%3c\n", c, c);
     printf ("%x\n", c);
+
     printf ("\nStrings:\n");
     printf ("%s\n", s);
     printf ("%.5s\n", s);

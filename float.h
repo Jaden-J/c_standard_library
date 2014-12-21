@@ -7,7 +7,7 @@
 
     /* type definitions */
 typedef struct {
-    int _Ddig, _Dmdig, _Dmax10e, _Dmaxe, Dmin10e, _Dmine;
+    int _Ddig, _Dmdig, _Dmax10e, _Dmaxe, _Dmin10e, _Dmine;
     union{
         unsigned short _Us[5];
         float _F;
